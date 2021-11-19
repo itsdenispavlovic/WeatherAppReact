@@ -38,7 +38,7 @@ export const WeatherScreen = () => {
     }
 
     return (
-        <div className={classes.root}>
+        <div className={[classes.root, temperature !== null && temperature > 16 ? classes.appWarm : ''].join(' ')}>
             <div>
                 <SearchBox
                     value={search}

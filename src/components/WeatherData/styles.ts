@@ -24,7 +24,7 @@ export const useStyles = makeStyles({
     },
     temperature: {
         color: '#fff',
-        fontSize: 90,
+        fontSize: 70,
         fontWeight: 500,
         textAlign: 'center',
         textShadow: '2px 2px rgba(50, 50, 70, 0.3)',
